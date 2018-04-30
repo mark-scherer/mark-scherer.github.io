@@ -1,15 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
       <title>Infogram</title>
     <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
-    <!-- Support Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="TC1/src/site/stylesheet.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container.fluid">
@@ -22,15 +19,36 @@
       </nav>
       <main class="main-body">
             <section class="content-body">
-              <div class="main-content">
-                  <h2>Instagram Insight</h2>
-                  <p>In-depth analytics of any instagram account.</p>
-                  <div class="main-searchbar">
-                    <p>Insert searchbar here</p>
+              <div class="container main-content">
+                  <div class="row">
+                    <div class="col-sm">
+                      <h2>Instagram Insight</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm">
+                       <p>In-depth analytics of any Instagram account.</p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center main-searchbar">
+                    <div class="col-4">
+                        <div class="input-group mb-3">
+                          <form id="input-username" method="get" action="TC1/src/control/venv/Scripts/dummy.cgi" role="form">
+                            <input id = "username" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                               <input type="submit" class="btn btn-success btn-send" value="Analyze">
+                            </div>
+                          </form>
+                        </div>
+                    </div>
                   </div>
               </div>
             </section>
           </main>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
 </html>
