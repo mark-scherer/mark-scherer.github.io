@@ -36,7 +36,7 @@ h1 {
 }
 
 .vl {
-    border-left: 2px solid gray;
+    border-left: 1px solid gray;
     height: 28px;
     overflow: hidden;
 }
@@ -68,4 +68,20 @@ h2 p {
     margin: 0 auto;
     position: relative;
     width: 100%;
+}
+
+.main-content {
+    background-color: #fff;
+    border-radius: 3px;
+    border-color: 1px solid #e6e6e6;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.main-searchbar {
+    width: 100%;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
 }
