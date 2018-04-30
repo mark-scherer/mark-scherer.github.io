@@ -15,11 +15,30 @@
     display: flex;
     flex-direction: row;
     height: 77px;
-    justify-content: center;
+    margin: auto;
     max-width: 1010px;
     padding: 26px 40px;
     transition: height .2s ease-in-out;
     width: 100%;
+}
+
+.topbar-title {
+    margin: auto 0px auto 10px;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: 'Sofia';
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 100px;
+    overflow: hidden;
 }
 
 .main-body {
