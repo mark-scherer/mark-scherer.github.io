@@ -1,0 +1,48 @@
+.topbar {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: height .2s ease-in-out;
+    height: 77px;
+    align-items: center;
+    border: 0 solid #000;
+}
+
+.topbar-content {
+    display: flex;
+    flex-direction: row;
+    height: 77px;
+    justify-content: center;
+    max-width: 1010px;
+    padding: 26px 40px;
+    transition: height .2s ease-in-out;
+    width: 100%;
+}
+
+.main-body {
+    background-color: #fafafa;
+    flex-grow: 1;
+    order: 4;
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.content-body {
+    padding-top: 60px;
+    flex-flow: row nowrap;
+    max-width: 935px;
+    flex-grow: 1;
+    max-width: 935px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
